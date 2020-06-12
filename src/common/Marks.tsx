@@ -33,6 +33,7 @@ const Marks = ({
       const markClassName = classNames({
         [`${className}-text`]: true,
         [`${className}-text-active`]: isActive,
+        [`${className}-text-current`]: point === upperBound,
       });
 
       const bottomStyle = {
