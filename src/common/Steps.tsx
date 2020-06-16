@@ -41,7 +41,7 @@ const Steps = ({
 
     const isActived =
       (!included && point === upperBound) ||
-      (included && point <= upperBound && point >= lowerBound);
+      (included && upperBound !== null && point <= upperBound && point >= lowerBound);
     let style = vertical
       ? { ...dotStyle, [reverse ? 'top' : 'bottom']: offset }
       : { ...dotStyle, [reverse ? 'right' : 'left']: offset };
