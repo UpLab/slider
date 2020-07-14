@@ -1,3 +1,4 @@
+/* eslint-disable max-classes-per-file */
 /* eslint react/no-multi-comp: 0, max-len: 0 */
 import '../assets/index.less';
 

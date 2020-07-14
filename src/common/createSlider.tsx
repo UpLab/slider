@@ -9,7 +9,7 @@ import * as utils from '../utils';
 
 function noop() {}
 
-export default function createSlider(Component) {
+export default function createSlider(Component: any): any {
   return class ComponentEnhancer extends Component {
     static displayName = `ComponentEnhancer(${Component.displayName})`;
 

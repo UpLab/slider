@@ -60,7 +60,7 @@ export interface RangeProps {
   handle: SliderProps['handle'];
 }
 
-interface RangeState {
+export interface RangeState {
   bounds: number[];
   handle: number | null;
   recent: number;

@@ -51,7 +51,7 @@ export interface SliderState {
   dragging: boolean;
 }
 
-class Slider extends React.Component<SliderProps, SliderState> {
+export class Slider extends React.Component<SliderProps, SliderState> {
   /**
    * [Legacy] Used for inherit other component.
    * It's a bad code style which should be refactor.
