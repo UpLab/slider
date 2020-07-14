@@ -73,8 +73,8 @@ export function ensureValuePrecision(val: number, props) {
 }
 
 export function pauseEvent(e: React.SyntheticEvent) {
-  e.stopPropagation();
-  e.preventDefault();
+  e?.stopPropagation?.();
+  e?.preventDefault?.();
 }
 
 export function calculateNextValue(func, value, props) {
